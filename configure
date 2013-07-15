@@ -53,8 +53,8 @@ class Configure
     @perl = nil
 
     # Versions
-    @language_version = "19"
-    @supported_versions = ["18", "19", "20"]
+    @language_version = "20"
+    @supported_versions = ["20"]
     @build_ruby = nil
 
     # LLVM settings
@@ -127,7 +127,7 @@ class Configure
     @rb_readline = false
 
     # Essential settings (modify these for creating releases)
-    @libversion = "2.0"
+    @libversion = "10.0"
     @patch_version = "0"
     @release = validate_release_label
     @release_date = validate_release_date
